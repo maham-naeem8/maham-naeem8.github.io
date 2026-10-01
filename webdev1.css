@@ -597,6 +597,36 @@ h1 {
 
 }
 
+.tech-stack .project-link {
+  margin-left: auto;
+  text-decoration: underline;
+  color: rgb(211, 7, 170);
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, .18);
+  border: 1px solid rgba(255, 255, 255, .20);
+}
+
+.tech-stack .project-link:hover {
+  background: linear-gradient(135deg, #ff9ecf, #c9a0ff);
+  border-color: transparent;
+}
+.tech-stack .design-link {
+  margin-left: auto;
+  text-decoration: underline;
+  color: rgb(211, 7, 170);
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, .18);
+  border: 1px solid rgba(255, 255, 255, .20);
+}
+
+.tech-stack .design-link:hover {
+  background: linear-gradient(135deg, #ff9ecf, #c9a0ff);
+  border-color: transparent;
+}
 .completed{
 
     background:#d9ffe6;
@@ -747,11 +777,9 @@ h1 {
 
     body{ background-attachment: scroll; }
 
-    /* Navbar */
     #navbar{ height: auto; margin-top: 10px; }
     #navbar a{ padding-right: 60px; margin-right: 12px; font-size: 14px; }
 
-    /* Hero poori screen le, taake About scroll karne par hi aaye */
     .hero{ min-height: 100vh; padding: 20px 15px; }
     .hero h1, h1{ font-size: 34px; margin-bottom: 8px; }
     .hero h5{ font-size: 12px; margin-bottom: 8px; }
@@ -760,7 +788,7 @@ h1 {
     .hero a{ font-size: 15px; }
     .social-links{ flex-direction: row; flex-wrap: wrap; gap: 10px; }
 
-    /* Boxes: width, gap, taake agla box scroll ke baad hi nazar aaye */
+  
     .about, .skills, .projects, .contact{
         width: 90%;
         margin: 0 auto 30vh;
@@ -771,7 +799,7 @@ h1 {
     .skills{ padding: 16px 14px; }
     .projects{ padding: 16px 14px; }
 
-    /* About */
+    
     .about-content{ padding: 10px 13px; border-radius: 20px; }
     .about h2{ font-size: 24px; margin-bottom: 8px; }
     .intro{ font-size: 11px; line-height: 1.4; margin-bottom: 10px; }
@@ -779,19 +807,18 @@ h1 {
     .tag{ padding: 5px 10px; }
     .description{ font-size: 12px; line-height: 1.5; text-align: left; }
 
-    /* Headings */
     .section-heading, .projects .section-heading{
         font-size: 22px;
         margin-bottom: 18px;
     }
 
-    /* Skills */
+   
     .skills-container{ grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px; }
     .skill-box{ padding: 8px; border-radius: 12px; }
     .skill-box h3{ font-size: 13px; margin-bottom: 8px; }
     .status{ font-size: 11px; padding: 3px 10px; }
 
-    /* Projects */
+   
     .project-card{ padding: 10px 12px; margin-bottom: 10px; }
     .project-content{ flex-direction: column; gap: 6px; }
     .project-info h3{ font-size: 13px; }
@@ -799,7 +826,7 @@ h1 {
     .tech-stack{ gap: 6px; }
     .tech-stack span{ font-size: 10px; padding: 3px 8px; }
 
-    /* Contact */
+  
     .contact{ margin: 90px auto 90px;}
     .contact h2{ font-size: 24px; margin-bottom: 8px; }
     .contact strong{ font-size: 15px; }
