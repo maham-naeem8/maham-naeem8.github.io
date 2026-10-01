@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="webdev1.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <title>webdev1</title>
+    <title>Maham Naeem | Web and Android Developer</title>
   </head>
   <body>
+    <a href="images/Maham_Naeem_Resume..pdf" target="_blank" class="resume-box">
+  <img src="images/cvimage.jpg" alt="Resume">
+  <span>Resume</span>
+</a>
        <div id="navbar">
        <a href="#home">Home</a>
        <a href="#about">About</a>
@@ -61,8 +65,8 @@
 
             <br><br>
 
-            This summer, instead of waiting for opportunities, I decided to invest my time in learning and
-            building real-world projects. I am currently improving my frontend development skills while also
+            This year, instead of wasting my summer vacations, I decided to invest my time in learning and
+            building projects. I am currently improving my frontend development skills while also
             exploring Android development and the MERN stack.
 
             <br><br>
@@ -70,7 +74,7 @@
             This portfolio is one of the projects I built to practice responsive web design, improve my UI
             skills, and become more confident with HTML, CSS, and JavaScript.
 
-            <br><br>
+            <br>
 
             My goal is to become a Full Stack Developer who builds modern, responsive, and user-friendly
             applications while continuously learning new technologies and solving real-world problems.
@@ -101,7 +105,7 @@
 
         <div class="skill-box">
           <h3> Android Development</h3>
-          <span class="status comfortable">comfortable</span>
+          <span class="status intermediate">intermediate</span>
         </div>
 
         <div class="skill-box">
@@ -111,7 +115,7 @@
 
         <div class="skill-box">
           <h3> Firebase / SQL </h3>
-          <span class="status comfortable">comfortable</span>
+          <span class="status intermediate">intermediate</span>
         </div>
         
         <div class="skill-box">
@@ -139,7 +143,7 @@
                 <p>
                     An Android application developed using Java and Firebase
                     to help students organize notes, manage schedules,
-                    and interact with an AI-powered study assistant.
+                    and interact with an AI-powered study assistant to give quizzes.
                 </p>
 
                 <div class="tech-stack">
@@ -166,7 +170,7 @@
                 <h3>UI/UX Designs</h3>
 
                 <p>
-                    Designed screen for 'AI study helper app' and another application <br> contact management app.
+                    Designed screens for 'AI study helper app' and for another application 'contact management app'.
                 </p>
 
                 <div class="tech-stack">
@@ -183,36 +187,34 @@
         </div>
 
     </div>
-
     <div class="project-card">
 
         <div class="project-content">
 
             <div class="project-info">
 
-                <h3>Job Tracker (MERN)</h3>
+                <h3>Portfolio Website</h3>
 
                 <p>
-                    A MERN job portal where job seekers can find and apply for jobs,
-                     while employers can post and manage job listings.
+                    Made this portfolio website as a project and to showcase my skills.
                 </p>
 
                 <div class="tech-stack">
-                    <span>MongoDB</span>
-                    <span>Express</span>
-                    <span>React</span>
-                    <span>Node.js</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
                 </div>
 
             </div>
 
-            <div class="status learning">
-                Learning
+            <div class="status completed">
+                Completed
             </div>
 
         </div>
 
     </div>
+
 
 
 </section> 
@@ -227,7 +229,7 @@
 </p>
     <p>Feel free to reach out anytime.</p>
 
-    <form action="https://formspree.io/f/maenapgj" method="POST">
+   <form id="contact-form" action="https://formspree.io/f/maenapgj" method="POST">
   <div class="row">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Email Address" required>
@@ -236,8 +238,11 @@
   <textarea name="message" placeholder="Write your message..." required></textarea>
 
   <button type="submit">Send Message ✨</button>
+  <p id="form-status"></p>
 </form>
 </section>
          </div>
-  </body>
-  </html>
+           <script src="script.js"></script>
+</body>
+</html>
+  
